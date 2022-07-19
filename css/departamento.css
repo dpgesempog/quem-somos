@@ -30,14 +30,14 @@
 }
 
 .card-diretor .texto-bibliografico{
-    font-size: medium;
+    font-size: large;
     position: relative;
     align-items:justify;
     text-align: justify;
     width: 500px;
     margin-left: 415px;
     padding-bottom: 30px;
-    
+    padding-top: 10px;
 
     /* border: 3px solid #73AD21; */
 }
@@ -64,4 +64,5 @@
     border-radius: 20px;
     margin-right: 400px;
     margin-left: 400px;
+    font-size: 20px;
 }

@@ -74,33 +74,3 @@ footer {
     margin-right: .75rem;
     margin-left: .75rem;
 }
-
-@media print{
-    .body {
-        padding-top: 0px;
-        transform: scale(0.5);
-    }
-
-}
-
-/* @media only screen and (max-width: 600px) {
-    body {
-        margin: 0;
-        padding: 0;
-        width: 0;
-
-    }
-    .container .card-diretor {
-        padding: 50%;
-    }
-    .container-secretaria .card-secretaria {
-        padding: 50%;
-    }
-    .container-subsecretaria .card-subsecretaria{
-        padding: 50%;
-    }
-    .container .card-divisoes{
-       
-        padding: 50%;
-    }
-  } */
