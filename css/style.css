@@ -74,3 +74,13 @@ footer {
     margin-right: .75rem;
     margin-left: .75rem;
 }
+
+
+@media print {
+    .print {
+        display: block;
+      }
+      .no-print {
+        display: none;
+      }
+    }
