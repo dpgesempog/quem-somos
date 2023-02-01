@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0; 
+    /* width: 100%; */
+}
+
+/* ====== Header =======*/
+header {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+header .cabecario {
+    background-color: #0071CE;
+    /* box-shadow: 0 0 1em #0071CE; */
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    top: 0; 
+}
+
+header .cabecario img{
+  width: 4%;
+}
+
+header .cabecario #topo {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: x-large;
+    color: white;
+    /* padding-left: 30px; */
+}
+
+h2 {
+    font-size: larger;
+    color: white;
+    /* padding-left: 30px; */
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+
+/*============ Main ===============*/
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+  
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*============ Secretário Municipal ===============*/
+#hero-main .icon-boxes{
+  /* border: red 8px solid */
+  padding: 2%;
+  width: 80%;
+  margin: auto;
+}
+
+#hero-main .icon-boxes .icon{
+  /* border: green 8px solid; */
+  text-align: center;
+  background-color: #0071CE;
+  width: 60%;
+  margin: auto;
+  color: white;
+  font-size: 36px;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+#hero-main .icon-boxes .icon-img img{
+  /* border: green 8px solid; */
+  width: 50%;
+  margin: auto;
+  display: block;
+  padding: 2%;
+  border-radius: 50%;
+}
+
+#hero-main .icon-boxes .icon .name{
+  color: white;
+  font-size: 36px;
+}
+
+#hero-main .icon-boxes .icon .office{
+  color: white;
+  font-size: 25px;
+}
+
+#hero-main .icon-boxes .icon .decree{
+  color: white;
+  font-size: 20px;
+}  
+
+#hero-main .icon-boxes .description{
+  font-size: 22px;
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  padding-top: 1%;
+}  
+
+/*============ Gabinete e Astec ===============*/
+#hero-main .icon-boxes .box{
+  /* border: rgb(0, 255, 234) 8px solid; */
+  margin: auto;
+  display: flex;
+  width: 64%;
+  /* grid: 100px / auto auto auto; */
+  align-items: baseline;
+ 
+}
+
+#hero-main .icon-boxes .box .icon-box-1{
+  /* border: red 8px solid; */
+  width: 100%;
+}
+
+#hero-main .icon-boxes .box .icon-box-1 .icon-img img{
+  /* border: green 8px solid; */
+  width: 50%;
+  height: 50%;
+  display: block;
+  padding: 2%;
+  border-radius: 50%;
+}
+
+#hero-main .icon-boxes .box .icon-box-1 .icon{
+  /* border: rgb(211, 42, 183) 8px solid; */
+  width: 90%; 
+}
+
+#hero-main .icon-boxes .box .icon-box-1 .icon .name{
+  color: white;
+  font-size: 26px;
+    position: relative; 
+}
+
+#hero-main .icon-boxes .box .icon-box-1 .icon .office{
+  color: white;
+  font-size: 20px;
+    position: relative; 
+}
+
+#hero-main .icon-boxes .box .icon-box-1 .icon .decree{
+  color: white;
+  font-size: 15px;
+    position: relative; 
+} 
+
+#hero-main .icon-boxes .box .icon-box-1 .description{
+  font-size: 22px;
+  text-align: justify;
+  width: 90%;
+  height: 60%;  
+  padding-top: 1%;
+  /* border: rgb(211, 42, 183) 8px solid;  */
+  
+}  
+
+/*============ Subsecretários ===============*/
+#hero-main .icon-boxes .box .icon-box-2 .icon-img img{
+  /* border: green 8px solid; */
+  width: 50%;
+  padding: 2%;
+  border-radius: 50%;
+  float: left;
+  
+}
+
+#hero-main .icon-boxes .box .icon-box-2 .icon{
+  border: rgb(211, 42, 183) 8px solid;
+  width: 44%;
+  margin: 2% auto 0 auto; 
+  display: flex;
+  /* float: right; */
+  flex-direction: column;
+  position: relative;
+}
+
+#hero-main .icon-boxes .box .icon-box-2 .icon .name{
+  color: white;
+  font-size: 26px;
+  position: relative; 
+
+  /* background-color: blue; */
+}
+
+#hero-main .icon-boxes .box .icon-box-2 .icon .office{
+  color: white;
+  font-size: 20px;
+    position: relative; 
+}
+
+#hero-main .icon-boxes .box .icon-box-2 .icon .decree{
+  color: white;
+  font-size: 15px;
+  position: relative; 
+} 
+
+#hero-main .icon-boxes .box .icon-box-2 .description{
+  font-size: 22px;
+  text-align: justify;
+  width: 95%;
+  height: 60%;  
+  padding-top: 1%;
+  position: relative; 
+  /* border: rgb(211, 42, 183) 8px solid;  */
+  
+}  
+
+/*============ Departamentos ===============*/
+#hero-main .icon-boxes .icon-box .icon p{
+  font-size: 18px;
+}
+
+#hero-main .icon-boxes .box .icon-box-dep-1 .icon{
+  /* border: rgb(211, 42, 183) 8px solid; */
+  width: 95%; 
+}
+
+#hero-main .icon-boxes .box .icon-box-dep-1 .icon-img img{
+  /* border: green 8px solid; */
+  width: 40%;
+  padding: 2%;
+  border-radius: 50%; 
+}
+
+#hero-main .icon-boxes .box .icon-box-dep-1 .icon .name{
+  color: white;
+  font-size: 22px;
+  position: relative; 
+}
+
+#hero-main .icon-boxes .box .icon-box-dep-1 .icon .office{
+  color: white;
+  font-size: 18px;
+  position: relative; 
+}
+
+#hero-main .icon-boxes .box .icon-box-dep-1 .icon .decree{
+  color: white;
+  font-size: 15px;
+  position: relative; 
+} 
+
+#hero-main .icon-boxes .box .icon-box-dep-1 .description{
+  font-size: 20px;
+  text-align: justify;
+  width: 95%;
+  height: 60%;  
+  padding-top: 1%;
+  /* border: rgb(211, 42, 183) 8px solid;  */
+  
+}  
+
+
+
+/*============ Divisões ===============*/
+#hero-main .icon-boxes .box .icon-box-3 .icon{
+  /* border: rgb(211, 42, 183) 8px solid; */
+  width: 85%; 
+  height: auto;
+  position: relative;    
+  align-items: center;
+  text-align: center;
+}
+
+#hero-main .icon-boxes .box .icon-box-3 .icon .icon-img img{
+  /* border: green 8px solid; */
+  width: 30%;
+  padding: 2%;
+  border-radius: 50%;
+
+}
+
+#hero-main .icon-boxes .box .icon-box-3 .icon .name{
+  color: white;
+  font-size: 20px;
+  position: relative; 
+  align-items: center;
+
+  /* background-color: blue; */
+}
+
+#hero-main .icon-boxes .box .icon-box-3 .icon .office{
+  color: white;
+  font-size: 17px;
+  position: relative;
+  align-items: center; 
+}
+
+#hero-main .icon-boxes .box .icon-box-3 .icon .decree{
+  color: white;
+  font-size: 13px;
+  position: relative; 
+  align-items: center;
+} 
+
+#hero-main .icon-boxes .box .icon-box-3 .description{
+  font-size: 22px;
+  text-align: justify;
+  width: 85%;
+  height: 60%;  
+  padding-top: 1%;
+  /* border: rgb(211, 42, 183) 8px solid;  */
+  
+}  
+
+
+
+
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0; 
+  }
+
+  /*  ==== Header ==== */
+  header {
+    font-family: "Open Sans", sans-serif;
+    width: auto;
+    height: 100%;
+    background-color: #0071CE;
+  }
+
+  header .cabecario {
+    width: 80%;
+    margin: auto;
+  }
+
+  header .cabecario img{
+    width: 10%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 90%;
+    color: white;
+  }
+
+  h2 {
+    font-size: 70%;
+    color: white;
+  }
+  /*  ==== End Header ==== */
+
+  /*  ==== Main Hero ==== */
+  #hero-main .icon-boxes .icon{
+    text-align: center;
+    background-color: #0071CE;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-size: x-large;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  
+  #hero-main .icon-boxes .icon-img img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding: 2%;
+    border-radius: 360px;
+  }
+  
+  #hero-main .icon-boxes .icon .name{
+    color: white;
+    font-size: large;
+  }
+  
+  #hero-main .icon-boxes .icon .office{
+    color: white;
+    font-size: medium;
+  }
+  
+  #hero-main .icon-boxes .icon .decree{
+    color: white;
+    font-size: small;
+  }
+  /*  ==== End Main Hero ==== */  
+  
+  /* ==== Footer ==== */
+  footer{
+    margin-top: 30%;
+    font-size: 12px; 
+    padding: 20px 0 20px 0;
+  }
+
+  .footer .imagem img{
+    width: 40%;
+    margin: auto;
+    display: block;
+  }
+  /* ==== Footer ==== */
+
+  
+}
+
+
+/*============ Footer ===============*/
+footer{
+    background-color: #e9e9f0;
+    box-shadow: 0 0 1em #e9e9f0;
+    width: 100%;
+    bottom: 0;
+    position: static;
+    color: #000000;
+    font-size: 15px; 
+    padding: 20px 0 20px 0;
+    /* position: fixed; */
+}
+
+.footer .imagem img{
+  width: 10%;
+  margin: auto;
+  display: block;
+}
+
+.footer .contatos {
+    align-items: center;
+    text-align: center; 
+}
+
+
+
+
