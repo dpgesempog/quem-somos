@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0; 
-    /* width: 100%; */
+    width: 100%;
 }
 
 /* ====== Header =======*/
@@ -67,12 +67,12 @@ a:hover {
 /*============ Secretário Municipal ===============*/
 #hero-main .icon-boxes{
   /* border: red 8px solid */
-  padding: 2%;
+  padding: 1%;
   width: 80%;
   margin: auto;
 }
 
-#hero-main .icon-boxes .icon{
+#hero-main .icon-boxes .icon-box .icon{
   /* border: green 8px solid; */
   text-align: center;
   background-color: #0071CE;
@@ -84,37 +84,73 @@ a:hover {
   border-radius: 20px;
 }
 
-#hero-main .icon-boxes .icon-img img{
+#hero-main .icon-boxes .icon-box .icon-img img{
   /* border: green 8px solid; */
-  width: 50%;
+  width: 30%;
   margin: auto;
   display: block;
   padding: 2%;
   border-radius: 50%;
 }
 
-#hero-main .icon-boxes .icon .name{
+#hero-main .icon-boxes .icon-box .icon .name{
   color: white;
   font-size: 36px;
 }
 
-#hero-main .icon-boxes .icon .office{
+#hero-main .icon-boxes .icon-box .icon .office{
   color: white;
   font-size: 25px;
 }
 
-#hero-main .icon-boxes .icon .decree{
+#hero-main .icon-boxes .icon-box .icon .decree{
   color: white;
   font-size: 20px;
 }  
 
-#hero-main .icon-boxes .description{
-  font-size: 22px;
+#hero-main .icon-boxes .icon-box .description{
+  font-size: 20px;
   text-align: justify;
   width: 60%;
   margin: auto;
   padding-top: 1%;
 }  
+
+@media screen and (max-width: 768px) {
+  #hero-main .icon-boxes .icon-box .icon{
+    text-align: center;
+    background-color: #0071CE;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-size: x-large;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  
+  #hero-main .icon-boxes .icon-box .icon-img img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding: 2%;
+    border-radius: 360px;
+  }
+  
+  #hero-main .icon-boxes .icon-box .icon .name{
+    color: white;
+    font-size: large;
+  }
+  
+  #hero-main .icon-boxes .icon-box .icon .office{
+    color: white;
+    font-size: medium;
+  }
+  
+  #hero-main .icon-boxes .icon-box .decree{
+    color: white;
+    font-size: small;
+  }
+}
 
 /*============ Gabinete e Astec ===============*/
 #hero-main .icon-boxes .box{
@@ -124,7 +160,6 @@ a:hover {
   width: 64%;
   /* grid: 100px / auto auto auto; */
   align-items: baseline;
- 
 }
 
 #hero-main .icon-boxes .box .icon-box-1{
@@ -136,14 +171,22 @@ a:hover {
   /* border: green 8px solid; */
   width: 50%;
   height: 50%;
-  display: block;
   padding: 2%;
   border-radius: 50%;
+  display: block;
+  margin: auto; 
 }
 
 #hero-main .icon-boxes .box .icon-box-1 .icon{
   /* border: rgb(211, 42, 183) 8px solid; */
-  width: 90%; 
+  width: 90%;
+  text-align: center;
+  background-color: #0071CE; 
+  margin: auto;
+  color: white;
+  font-size: 36px;
+  padding: 1%;
+  border-radius: 20px;
 }
 
 #hero-main .icon-boxes .box .icon-box-1 .icon .name{
@@ -165,33 +208,36 @@ a:hover {
 } 
 
 #hero-main .icon-boxes .box .icon-box-1 .description{
-  font-size: 22px;
+  font-size: 20px;
   text-align: justify;
   width: 90%;
   height: 60%;  
   padding-top: 1%;
+  margin: auto; 
   /* border: rgb(211, 42, 183) 8px solid;  */
   
 }  
 
 /*============ Subsecretários ===============*/
+#hero-main .icon-boxes .box .icon-box-2 .icon{
+  /* border: rgb(211, 42, 183) 8px solid; */
+  width: 48%;
+  margin: 2% auto 0 auto; 
+  margin-left: 48%;
+  text-align: center;
+  background-color: #0071CE; 
+  color: white;
+  font-size: 36px;
+  padding: 1%;
+  border-radius: 20px;
+}
+
 #hero-main .icon-boxes .box .icon-box-2 .icon-img img{
   /* border: green 8px solid; */
-  width: 50%;
+  width: 45%;
   padding: 2%;
   border-radius: 50%;
   float: left;
-  
-}
-
-#hero-main .icon-boxes .box .icon-box-2 .icon{
-  border: rgb(211, 42, 183) 8px solid;
-  width: 44%;
-  margin: 2% auto 0 auto; 
-  display: flex;
-  /* float: right; */
-  flex-direction: column;
-  position: relative;
 }
 
 #hero-main .icon-boxes .box .icon-box-2 .icon .name{
@@ -215,12 +261,14 @@ a:hover {
 } 
 
 #hero-main .icon-boxes .box .icon-box-2 .description{
-  font-size: 22px;
+  font-size: 20px;
   text-align: justify;
   width: 95%;
   height: 60%;  
   padding-top: 1%;
   position: relative; 
+  align-items: baseline;
+  margin: auto;
   /* border: rgb(211, 42, 183) 8px solid;  */
   
 }  
@@ -231,15 +279,23 @@ a:hover {
 }
 
 #hero-main .icon-boxes .box .icon-box-dep-1 .icon{
-  /* border: rgb(211, 42, 183) 8px solid; */
-  width: 95%; 
+  width: 95%;
+  text-align: center;
+  background-color: #0071CE; 
+  margin: auto;
+  color: white;
+  font-size: 36px;
+  padding: 1%;
+  border-radius: 20px;
 }
 
 #hero-main .icon-boxes .box .icon-box-dep-1 .icon-img img{
   /* border: green 8px solid; */
-  width: 40%;
+  width: 30%;
   padding: 2%;
-  border-radius: 50%; 
+  border-radius: 50%;
+  display: block;
+  margin: auto; 
 }
 
 #hero-main .icon-boxes .box .icon-box-dep-1 .icon .name{
@@ -264,63 +320,96 @@ a:hover {
   font-size: 20px;
   text-align: justify;
   width: 95%;
-  height: 60%;  
+  height: auto;  
   padding-top: 1%;
+  margin: auto;
   /* border: rgb(211, 42, 183) 8px solid;  */
   
 }  
 
-
-
 /*============ Divisões ===============*/
-#hero-main .icon-boxes .box .icon-box-3 .icon{
-  /* border: rgb(211, 42, 183) 8px solid; */
-  width: 85%; 
-  height: auto;
-  position: relative;    
-  align-items: center;
-  text-align: center;
+#hero-main .icon-boxes-1{
+  /* border: red 8px solid; */
+  width: 78%;
+  margin: auto;
 }
 
-#hero-main .icon-boxes .box .icon-box-3 .icon .icon-img img{
+#hero-main .icon-boxes-1 .box{
+  /* border: rgb(0, 255, 234) 8px solid; */
+  padding: auto;
+  margin: auto; 
+  display: flex;
+  width: 64%;
+  /* grid: 100px / auto auto auto; */
+  align-items: baseline;
+}
+
+#hero-main .icon-boxes-1 .box .icon-box-3{
+  width: 100%;
+  height: 90;
+  /* border: green 8px solid;  */
+}
+
+
+#hero-main .icon-boxes-1 .box .icon-box-3 .icon-img img{
   /* border: green 8px solid; */
-  width: 30%;
+  width: 20%;
   padding: 2%;
   border-radius: 50%;
+  float: left;
+  /* z-index: 5000; */
+}
+
+#hero-main .icon-boxes-1 .box .icon-box-3 .icon{
+  width: 95%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  background-color: #0071CE; 
+  margin: auto;
+  color: white;
+  padding: 1%;
+  border-radius: 20px;
+  display: inline-block;
 
 }
 
-#hero-main .icon-boxes .box .icon-box-3 .icon .name{
-  color: white;
+#hero-main .icon-boxes-1 .box .icon-box-3 .icon .management{
+  width: 95%;
+  padding: 3%;
+  font-size: 22px;
+
+}
+
+#hero-main .icon-boxes-1 .box .icon-box-3 .employee .name{
+  color: rgb(0, 0, 0);
   font-size: 20px;
   position: relative; 
   align-items: center;
-
-  /* background-color: blue; */
+  
 }
 
-#hero-main .icon-boxes .box .icon-box-3 .icon .office{
-  color: white;
+#hero-main .icon-boxes-1 .box .icon-box-3 .employee .office{
+  color: rgb(0, 0, 0);
   font-size: 17px;
   position: relative;
   align-items: center; 
 }
 
-#hero-main .icon-boxes .box .icon-box-3 .icon .decree{
-  color: white;
+#hero-main .icon-boxes-1 .box .icon-box-3 .employee .decree{
+  color: rgb(0, 0, 0);
   font-size: 13px;
   position: relative; 
   align-items: center;
 } 
 
-#hero-main .icon-boxes .box .icon-box-3 .description{
-  font-size: 22px;
+#hero-main .icon-boxes-1 .box .icon-box-3 .description{
+  font-size: 20px;
   text-align: justify;
-  width: 85%;
+  width: 95%;
   height: 60%;  
   padding-top: 1%;
-  /* border: rgb(211, 42, 183) 8px solid;  */
-  
+  padding-bottom: 3%;  
 }  
 
 
@@ -394,7 +483,10 @@ a:hover {
   #hero-main .icon-boxes .icon .decree{
     color: white;
     font-size: small;
+    margin: 0;
   }
+
+
   /*  ==== End Main Hero ==== */  
   
   /* ==== Footer ==== */
